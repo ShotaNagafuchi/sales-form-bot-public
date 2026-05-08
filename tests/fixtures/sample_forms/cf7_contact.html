@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8"><title>Contact Form 7</title></head>
+<body>
+<h1>お問い合わせ</h1>
+<div class="wpcf7" id="wpcf7-f123-o1">
+<form action="/contact/#wpcf7-f123-o1" method="post" class="wpcf7-form" id="wpcf7-form-123">
+    <p>
+        <label>お名前（必須）
+            <span class="wpcf7-form-control-wrap" data-name="your-name">
+                <input type="text" name="your-name" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" placeholder="山田 太郎">
+            </span>
+        </label>
+    </p>
+    <p>
+        <label>メールアドレス（必須）
+            <span class="wpcf7-form-control-wrap" data-name="your-email">
+                <input type="email" name="your-email" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" placeholder="example@example.com">
+            </span>
+        </label>
+    </p>
+    <p>
+        <label>電話番号
+            <span class="wpcf7-form-control-wrap" data-name="your-tel">
+                <input type="tel" name="your-tel" class="wpcf7-form-control wpcf7-tel" placeholder="03-1234-5678">
+            </span>
+        </label>
+    </p>
+    <p>
+        <label>会社名
+            <span class="wpcf7-form-control-wrap" data-name="your-company">
+                <input type="text" name="your-company" class="wpcf7-form-control wpcf7-text" placeholder="株式会社サンプル">
+            </span>
+        </label>
+    </p>
+    <p>
+        <label>お問い合わせ種別
+            <span class="wpcf7-form-control-wrap" data-name="your-subject">
+                <select name="your-subject" class="wpcf7-form-control wpcf7-select">
+                    <option value="">---</option>
+                    <option value="サービスについて">サービスについて</option>
+                    <option value="料金について">料金について</option>
+                    <option value="その他">その他</option>
+                </select>
+            </span>
+        </label>
+    </p>
+    <p>
+        <label>お問い合わせ内容（必須）
+            <span class="wpcf7-form-control-wrap" data-name="your-message">
+                <textarea name="your-message" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" placeholder="お問い合わせ内容をご記入ください"></textarea>
+            </span>
+        </label>
+    </p>
+    <p>
+        <input type="submit" value="送信" class="wpcf7-form-control wpcf7-submit">
+    </p>
+</form>
+</div>
+</body>
+</html>

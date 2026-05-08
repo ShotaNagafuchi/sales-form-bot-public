@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8"><title>お問い合わせ</title></head>
+<body>
+<h1>お問い合わせフォーム</h1>
+<form id="contact-form" method="POST" action="">
+    <div>
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="name">
+    </div>
+    <div>
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="email">
+    </div>
+    <div>
+        <input type="submit" id="submit-btn" value="送信する">
+    </div>
+</form>
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var err = document.createElement('div');
+    err.id = 'error-msg';
+    err.innerHTML = '<p style="color:red">エラー: 必須項目を入力してください</p>';
+    document.body.appendChild(err);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "company_name": "Acme Corporation",
+  "name": "Taro Yamada",
+  "name_sei": "Yamada",
+  "name_mei": "Taro",
+  "furigana": "やまだ たろう",
+  "furigana_sei": "やまだ",
+  "furigana_mei": "たろう",
+  "email": "taro.yamada@example.com",
+  "phone": "03-1234-5678",
+  "zip": "100-0001",
+  "address": "Tokyo, Chiyoda-ku, Chiyoda 1-1-1",
+  "department": "Sales",
+  "position": "Manager",
+  "url": "https://example.com",
+  "message": "I found your website and would like to discuss a potential collaboration. Could we schedule a brief call at your convenience?"
+}
