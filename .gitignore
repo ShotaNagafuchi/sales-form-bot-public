@@ -12,3 +12,12 @@ results/completed/*.json
 queue/pending/*.json
 results/
 data/companies.csv
+
+# --- standard hygiene (managed) ---
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+# --- end standard hygiene ---
